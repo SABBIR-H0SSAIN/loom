@@ -1,0 +1,181 @@
+Line       Message                            Token
+Line 2:    KEYWORD DETECTED                   lock
+Line 2:    IDENTIFIER DETECTED                pass_mark
+Line 2:    KEYWORD DETECTED                   as
+Line 2:    TYPE KEYWORD DETECTED              num
+Line 2:    ASSIGNMENT OPERATOR DETECTED       <=
+Line 2:    NUMBER DETECTED                    40
+Line 4:    KEYWORD DETECTED                   pattern
+Line 4:    IDENTIFIER DETECTED                largest
+Line 4:    LEFT PARENTHESIS DETECTED          (
+Line 4:    IDENTIFIER DETECTED                arr
+Line 4:    KEYWORD DETECTED                   as
+Line 4:    TYPE KEYWORD DETECTED              list
+Line 4:    ANGLE BRACKET OPEN DETECTED        <
+Line 4:    TYPE KEYWORD DETECTED              num
+Line 4:    ANGLE BRACKET CLOSE DETECTED       >
+Line 4:    RIGHT PARENTHESIS DETECTED         )
+Line 4:    KEYWORD DETECTED                   gives
+Line 4:    TYPE KEYWORD DETECTED              num
+Line 5:    BLOCK START DETECTED               <<
+Line 6:    KEYWORD DETECTED                   hold
+Line 6:    IDENTIFIER DETECTED                best
+Line 6:    KEYWORD DETECTED                   as
+Line 6:    TYPE KEYWORD DETECTED              num
+Line 6:    ASSIGNMENT OPERATOR DETECTED       <=
+Line 6:    IDENTIFIER DETECTED                arr
+Line 6:    INDEX DELIMITER (OPEN) DETECTED    |
+Line 6:    NUMBER DETECTED                    0
+Line 6:    INDEX DELIMITER (CLOSE) DETECTED   |
+Line 7:    KEYWORD DETECTED                   repeat
+Line 7:    IDENTIFIER DETECTED                i
+Line 7:    KEYWORD DETECTED                   across
+Line 7:    NUMBER DETECTED                    1
+Line 7:    RANGE OPERATOR DETECTED            ..
+Line 7:    LENGTH OPERATOR DETECTED           #
+Line 7:    IDENTIFIER DETECTED                arr
+Line 7:    ARITHMETIC OPERATOR DETECTED       -
+Line 7:    NUMBER DETECTED                    1
+Line 7:    BLOCK START DETECTED               <<
+Line 8:    KEYWORD DETECTED                   when
+Line 8:    IDENTIFIER DETECTED                arr
+Line 8:    INDEX DELIMITER (OPEN) DETECTED    |
+Line 8:    IDENTIFIER DETECTED                i
+Line 8:    INDEX DELIMITER (CLOSE) DETECTED   |
+Line 8:    COMPARISON OPERATOR DETECTED       exceeds
+Line 8:    IDENTIFIER DETECTED                best
+Line 8:    BLOCK START DETECTED               <<
+Line 9:    IDENTIFIER DETECTED                best
+Line 9:    ASSIGNMENT OPERATOR DETECTED       <=
+Line 9:    IDENTIFIER DETECTED                arr
+Line 9:    INDEX DELIMITER (OPEN) DETECTED    |
+Line 9:    IDENTIFIER DETECTED                i
+Line 9:    INDEX DELIMITER (CLOSE) DETECTED   |
+Line 10:   BLOCK END DETECTED                 >>
+Line 11:   BLOCK END DETECTED                 >>
+Line 12:   KEYWORD DETECTED                   back
+Line 12:   IDENTIFIER DETECTED                best
+Line 12:   SEMICOLON DETECTED                 ;
+Line 13:   BLOCK END DETECTED                 >>
+Line 15:   KEYWORD DETECTED                   hold
+Line 15:   IDENTIFIER DETECTED                marks
+Line 15:   KEYWORD DETECTED                   as
+Line 15:   TYPE KEYWORD DETECTED              list
+Line 15:   ANGLE BRACKET OPEN DETECTED        <
+Line 15:   TYPE KEYWORD DETECTED              num
+Line 15:   ANGLE BRACKET CLOSE DETECTED       >
+Line 15:   ASSIGNMENT OPERATOR DETECTED       <=
+Line 15:   LIST DELIMITER (OPEN) DETECTED     |
+Line 15:   NUMBER DETECTED                    72
+Line 15:   NUMBER DETECTED                    85
+Line 15:   NUMBER DETECTED                    38
+Line 15:   NUMBER DETECTED                    90
+Line 15:   LIST DELIMITER (CLOSE) DETECTED    |
+Line 16:   KEYWORD DETECTED                   hold
+Line 16:   IDENTIFIER DETECTED                top
+Line 16:   KEYWORD DETECTED                   as
+Line 16:   TYPE KEYWORD DETECTED              num
+Line 16:   ASSIGNMENT OPERATOR DETECTED       <=
+Line 16:   IDENTIFIER DETECTED                largest
+Line 16:   LEFT PARENTHESIS DETECTED          (
+Line 16:   IDENTIFIER DETECTED                marks
+Line 16:   RIGHT PARENTHESIS DETECTED         )
+Line 17:   KEYWORD DETECTED                   hold
+Line 17:   IDENTIFIER DETECTED                passed
+Line 17:   KEYWORD DETECTED                   as
+Line 17:   TYPE KEYWORD DETECTED              flag
+Line 17:   ASSIGNMENT OPERATOR DETECTED       <=
+Line 17:   IDENTIFIER DETECTED                top
+Line 17:   COMPARISON OPERATOR DETECTED       atleast
+Line 17:   IDENTIFIER DETECTED                pass_mark
+Line 19:   KEYWORD DETECTED                   display
+Line 19:   TEXT LITERAL DETECTED              "Highest mark:"
+Line 19:   COMMA DETECTED                     ,
+Line 19:   IDENTIFIER DETECTED                top
+Line 21:   KEYWORD DETECTED                   when
+Line 21:   IDENTIFIER DETECTED                passed
+Line 21:   LOGICAL OPERATOR DETECTED          also
+Line 21:   LOGICAL OPERATOR DETECTED          not
+Line 21:   LEFT PARENTHESIS DETECTED          (
+Line 21:   IDENTIFIER DETECTED                top
+Line 21:   COMPARISON OPERATOR DETECTED       equals
+Line 21:   NUMBER DETECTED                    0
+Line 21:   RIGHT PARENTHESIS DETECTED         )
+Line 21:   BLOCK START DETECTED               <<
+Line 22:   KEYWORD DETECTED                   display
+Line 22:   TEXT LITERAL DETECTED              "Passed"
+Line 23:   BLOCK END DETECTED                 >>
+Line 24:   KEYWORD DETECTED                   otherwise
+Line 24:   BLOCK START DETECTED               <<
+Line 25:   KEYWORD DETECTED                   display
+Line 25:   TEXT LITERAL DETECTED              "Failed"
+Line 26:   BLOCK END DETECTED                 >>
+Line 28:   KEYWORD DETECTED                   inspect
+Line 28:   IDENTIFIER DETECTED                top
+Line 28:   BLOCK START DETECTED               <<
+Line 29:   KEYWORD DETECTED                   on
+Line 29:   NUMBER DETECTED                    90
+Line 29:   RANGE OPERATOR DETECTED            ..
+Line 29:   NUMBER DETECTED                    100
+Line 29:   COLON DETECTED                     :
+Line 30:   KEYWORD DETECTED                   display
+Line 30:   TEXT LITERAL DETECTED              "Grade A"
+Line 31:   KEYWORD DETECTED                   on
+Line 31:   NUMBER DETECTED                    60
+Line 31:   RANGE OPERATOR DETECTED            ..
+Line 31:   NUMBER DETECTED                    89
+Line 31:   COLON DETECTED                     :
+Line 32:   KEYWORD DETECTED                   display
+Line 32:   TEXT LITERAL DETECTED              "Grade B"
+Line 33:   KEYWORD DETECTED                   fallback
+Line 33:   COLON DETECTED                     :
+Line 34:   KEYWORD DETECTED                   display
+Line 34:   TEXT LITERAL DETECTED              "Grade C"
+Line 35:   BLOCK END DETECTED                 >>
+Line 37:   KEYWORD DETECTED                   hold
+Line 37:   IDENTIFIER DETECTED                count
+Line 37:   KEYWORD DETECTED                   as
+Line 37:   TYPE KEYWORD DETECTED              num
+Line 37:   ASSIGNMENT OPERATOR DETECTED       <=
+Line 37:   NUMBER DETECTED                    0
+Line 38:   KEYWORD DETECTED                   repeat
+Line 38:   KEYWORD DETECTED                   untill
+Line 38:   IDENTIFIER DETECTED                count
+Line 38:   COMPARISON OPERATOR DETECTED       equals
+Line 38:   LENGTH OPERATOR DETECTED           #
+Line 38:   IDENTIFIER DETECTED                marks
+Line 38:   BLOCK START DETECTED               <<
+Line 39:   IDENTIFIER DETECTED                count
+Line 39:   ASSIGNMENT OPERATOR DETECTED       <=
+Line 39:   IDENTIFIER DETECTED                count
+Line 39:   ARITHMETIC OPERATOR DETECTED       +
+Line 39:   NUMBER DETECTED                    1
+Line 40:   BLOCK END DETECTED                 >>
+Line 41:   KEYWORD DETECTED                   display
+Line 41:   TEXT LITERAL DETECTED              "Total marks: "
+Line 41:   ARITHMETIC OPERATOR DETECTED       +
+Line 41:   CONVERSION FUNCTION DETECTED       to_text
+Line 41:   LEFT PARENTHESIS DETECTED          (
+Line 41:   IDENTIFIER DETECTED                count
+Line 41:   RIGHT PARENTHESIS DETECTED         )
+
+
+Token count
+keyword                  34
+type keyword             10
+identifier               31
+number                   15
+text literal             7
+flag literal             0
+conversion function      1
+arithmetic operator      3
+assignment operator      8
+comparison operator      4
+logical operator         2
+block start/end          14
+brackets/delimiters      20
+others                   10
+lexical errors           0
+
+Total tokens             159
+Total lines              41

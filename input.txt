@@ -1,0 +1,41 @@
+// Find the highest mark and give it a grade
+lock pass_mark as num <= 40
+
+pattern largest(arr as list<num>) gives num
+<<
+    hold best as num <= arr|0|
+    repeat i across 1..#arr - 1 <<
+        when arr|i| exceeds best <<
+            best <= arr|i|
+        >>
+    >>
+    back best;
+>>
+
+hold marks as list<num> <= | 72 85 38 90 |
+hold top as num <= largest(marks)
+hold passed as flag <= top atleast pass_mark
+
+display "Highest mark:", top
+
+when passed also not (top equals 0) <<
+    display "Passed"
+>>
+otherwise <<
+    display "Failed"
+>>
+
+inspect top <<
+    on 90..100:
+        display "Grade A"
+    on 60..89:
+        display "Grade B"
+    fallback:
+        display "Grade C"
+>>
+
+hold count as num <= 0
+repeat untill count equals #marks <<
+    count <= count + 1
+>>
+display "Total marks: " + to_text(count)
